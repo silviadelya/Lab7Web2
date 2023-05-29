@@ -35,7 +35,7 @@ Setelah database berhasil dibuat, buat tabel baru dengan nama **artikel**.
 
 Konfigurasi dapat dilakukan dengan dua cara, yaitu pada file **app/config/database.php** atau menggunakan file **.env**. Pada praktikum ini kita gunakan konfigurasi pada file **.env**, kemudian hapus tanda **#** pada bagian database.
 
-![Gambar](ss/2.png)
+![Gambar 2](ss/2.png)
 
 
 ## D. Membuat Model
@@ -271,7 +271,7 @@ Buka Kembali file **app/config/Routes.php** kemudian tambahkan routing untuk art
 
 7. Akses menu admin dengan URL: http://localhost:8080/admin/artikel, maka tampilannya akan seperti gambar dibawah.
 
-![Gambar](ss/4.png)
+![Gambar 4](ss/4.png)
 
 
 ## K. Menambah Data Artikel
@@ -319,6 +319,7 @@ Buka Kembali file **app/config/Routes.php** kemudian tambahkan routing untuk art
     <?= $this->include('template/admin_footer'); ?>
 ```
 
+![Gambar 5](ss/5.png)
 
 
 ## L. Mengubah Data
@@ -371,7 +372,7 @@ Buka Kembali file **app/config/Routes.php** kemudian tambahkan routing untuk art
 
 ## M. Menghapus Data
 
-Tambahkan fungsi/method baru pada **Controllers Artikel** dengan nama **delete()**.
+Tambahkan fungsi/method baru pada **Controllers/Artikel.php** dengan nama **delete()**.
 
 ```php
 public function delete($id)
